@@ -1,6 +1,6 @@
 // controllers/SearchController.js
 const axios = require('axios');
-const config = require('../Config'); // Import your configuration file
+const config = require('../config'); // Import your configuration file
 const db = require('../db'); // Import your database connection
 
 const SearchController = {

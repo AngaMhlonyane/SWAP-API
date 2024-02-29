@@ -1,7 +1,7 @@
 // controllers/UserController.js
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const config = require('../Config'); // Import your configuration file
+const config = require('../config'); // Import your configuration file
 const db = require('../db'); // Import your database connection
 
 const UserController = {
